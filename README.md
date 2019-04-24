@@ -7,8 +7,10 @@ A website remodeling for the Basking Ridge Business Alliance by the Ridge Comput
 * Minimalistic & clean design
 * Rounded edges for all buttons and interactable components
 * Emphasis on mobile-friendly elements
+* [BRBA Mockup](https://tinyurl.com/BRBA-mockup)
 
 ## Palette
+![Image of Color Palette](https://i.imgur.com/JELApbk.jpg)
 
 All colors:
 0D1F22, 006B34, 69B578, 99D5C9, B7D3F2
