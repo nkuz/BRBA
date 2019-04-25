@@ -13,7 +13,9 @@ A website remodeling for the Basking Ridge Business Alliance by the Ridge Comput
 ![Image of Color Palette](https://i.imgur.com/JELApbk.jpg)
 
 All colors:
+
 0D1F22, 006B34, 69B578, 99D5C9, B7D3F2
+
 BRBA Logo Color: 006B34
 
 ## Text
@@ -27,6 +29,7 @@ BRBA Logo Color: 006B34
 
 ## Icons
 All icons will be from Font Awesome with size 2x on Desktop and 1x on mobile.
+
 [Instructions on including Font Awesome icons in your HTML files](https://fontawesome.com/start)
 
 ### Social Media
