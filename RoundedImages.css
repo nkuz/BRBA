@@ -5,7 +5,7 @@
 
 /* Used primarily for larger rectangles such as the map and the front page image */
 .rect-large {
-    border-radius: 75px;
+    border-radius: 25px;
     padding: 20px;
     width: 1000px;
     height: 580px;
@@ -13,7 +13,7 @@
 
 /* Used everywhere else besides the map and the front page image */
 .mediumRect { 
-    border-radius: 75px;
+    border-radius: 25px;
     padding: 20px;
     width: 560px;
     height: 400px;
