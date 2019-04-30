@@ -1,0 +1,17 @@
+.dialog
+{
+background-color: #B7D3F2;
+height:60vh;
+width: 70vh;
+border-radius: 25px;
+
+}
+p {
+   
+    color:black;
+    margin: auto;  
+    padding: 20px;
+    text-align: center;
+  }
+  
+ 
