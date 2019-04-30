@@ -52,3 +52,9 @@ Use these icons 5px to the left of the actual details. For example, your design 
 * hamburger (mobile-only): fas fa-bars
 * close window/x-out: fas fa-window-close
 * next & previous: fas fa-chevron-left & fas fa-chevron-right
+
+### Boxes
+* box 1 Contains more information about the business on the individual business page.
+On mockup: slide 6, has business website, name, and location.
+
+
