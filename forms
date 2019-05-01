@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 1px solid #0D1F22;
+  padding: 20px; 
+  width: 650px;
+  height: 650px;  
+}
+
+
+
+#ip2 {
+    border-radius: 25px;
+    border: 1px solid #0D1F22;
+    padding: 13px; 
+    width: 500px;
+    height: 2px;    
+}
+
+#ip3 {
+    border-radius: 25px;
+    border: 1px solid #0D1F22;
+    padding: 13px; 
+    width: 500px;
+    height: 50px;    
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+
+<center>
+<p id="rcorners2"><font color="green" size="4">*Job Title:  </font><br><br>
+
+	<input type="text" id="ip2"/><br><br><br>
+
+	<font color="green" size="4">*Company Name:  </font> <br><br>
+
+	<input type="text" id="ip2"/>
+
+	<br><br><br>
+
+	<font color="green" size="4">*Job Location:  </font> <br><br>
+
+	<input type="text" id="ip2"/>
+
+
+	<br><br><br>
+
+	<font color="green" size="4">*Job Description:  </font> <br><br>
+
+	<input type="text" id="ip3"/>
+
+<br><br><br>
+	<font color="green" size="4">*Street Address:  </font> <br><br>
+
+	<input type="text" id="ip2"/>
+
+
+	<br><br><br>
+
+	<font color="green" size="4">*Company Website:  </font> <br><br>
+
+	<input type="text" id="ip2"/>
+
+
+	<br><br><br>
+</p>
+
+
+
+</center>
+
+
+
+
+</body>
+</html>
