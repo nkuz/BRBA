@@ -56,5 +56,12 @@ Use these icons 5px to the left of the actual details. For example, your design 
 ### Boxes
 * box 1 Contains more information about the business on the individual business page.
 On mockup: slide 6, has business website, name, and location.
-
+* box 2 Contains more information about the events and what they look like when you click on them.
+On mockup: slide 8, has business name, location, contacts and blurb.
+* box 3 Contains the links and icons to socail media 
+On mockup: slide 4, hasTwitter facebook and instagram.
+* box 4 Contains contact information on the find a member page gives email and social media.
+On mockup: slide 6, has contact information.
+* box 5 Contains information about the business on the event page.
+On mockup: slide 7, has business name, date of event and blurb.
 
