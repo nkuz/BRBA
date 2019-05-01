@@ -65,3 +65,11 @@ On mockup: slide 6, has contact information.
 * box 5 Contains information about the business on the event page.
 On mockup: slide 7, has business name, date of event and blurb.
 
+### Buttons
+2 button varieties exist on the stylesheet in 3 different sizes each. To use, add one of the following classes to your button.
+* button-small-green: Text is size of a default p element. As of right now, use for "Add an Event", "RSVP", "Upload Logo", "Upload Flyer", "Search" and "Apply" buttons.
+* button-med-green: Text is size of a default h3 element. Use for "Return to Event" button.
+* button-large-green: Text is the size of a default h2 element. Use for "Add and Event" and "RSVP".
+* button-small-clear: Small clear style. Use is TBD.
+* button-med-clear: Medium clear style. Use for "Add an Event" on bulletin board. 
+* button-large-clear: Large clear style. Use is TBD.
