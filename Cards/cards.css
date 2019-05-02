@@ -1,0 +1,11 @@
+0D1F22, 006B34, 69B578, 99D5C9, B7D3F2
+
+.card-upcoming {
+    background-color: red;
+    width: 10%;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
