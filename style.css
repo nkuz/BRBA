@@ -1,0 +1,46 @@
+.tag{
+    color:#5FB3FC;
+    padding: 10px;
+    margin: 10px;
+    background-color:#F1F9FF;
+    border-style: solid;
+    border-color:#D1EBFB;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "PT Sans";
+}
+.tag:hover {
+      cursor: pointer;
+}
+
+.tagTwo{
+    color:#99D5C9;
+    padding: 20px;
+    margin: 30px;
+    background-color: #69B578; 
+    border-style: solid;
+    border-color:#006B34;
+    border-radius: 20px;
+    font-size: 30px;
+    font-family: "PT Sans";
+}
+
+.tagTwo:hover{
+	cursor: pointer;
+}
+
+.tagThree{
+    color: #69B578;
+    padding: 5px;
+    margin: 5px;
+    background-color: #B7D3F2;
+    border-style: solid;
+    border-color: #0D1F22;
+    border-radius: 5px;
+    font-size: 10px;
+    font-family: "PT Sans";
+}
+
+.tagThree:hover{
+	cursor: pointer;
+}
