@@ -1,11 +1,92 @@
-0D1F22, 006B34, 69B578, 99D5C9, B7D3F2
+* {
 
-.card-upcoming {
-    background-color: red;
-    width: 10%;
-  }
-  
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-  }
+}
+
+.upcoming-event-card {
+    margin: 1em;
+}
+
+.upcoming-event-card > img {
+    height: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.upcoming-event-content-left {
+    height: 55px;
+    background: #69B578;
+    width: 8em;
+    padding: 30px;
+    padding-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.upcoming-event-content-right {
+    background: #69B578;
+    width: 4em;
+    padding: 30px;
+    padding-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-left: -4px;
+    height: 55px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.business-card {
+    margin: 1em;
+}
+
+.business-card > img {
+    height: 90px;
+    display: inline-block;
+    vertical-align: middle;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.business-card-content {
+    height: 60px;
+    background: #69B578;
+    width: 70%;
+    padding: 30px;
+    padding-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: -4px;
+}
+
+.event-card {
+    margin: 1em;
+}
+
+.event-card > img {
+    height: 130px;
+    display: inline-block;
+    vertical-align: middle;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.event-card-content {
+    height: 100px;
+    background: #69B578;
+    width: 60%;
+    padding: 30px;
+    padding-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-left: -4px;
+}
