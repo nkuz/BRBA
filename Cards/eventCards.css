@@ -99,3 +99,47 @@
     margin-left: 80px;
     padding-top: 4px;
 }
+
+
+
+
+.business-card {
+    margin: 1em;
+}
+
+.business-card > img {
+    height: 300px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.business-content-left {
+    height: 9em;
+    background: #99D5C9;
+    width: 7.5em;
+    padding: 25px;
+    padding-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.business-content-centre {
+    background: #99D5C9;
+    width: 37em;
+    padding: 25px;
+    padding-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-left: -4px;
+    height: 9em;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.line-break {
+    border-top: 3px solid black;
+}
