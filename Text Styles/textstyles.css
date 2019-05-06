@@ -18,7 +18,7 @@ body {
   font-style: normal; 
   font-variant: normal; 
   line-height: 26.4px; 
-  color: #8B8D8B;
+  color: #0D1F22;
   
   
   
@@ -46,17 +46,26 @@ body {
   line-height: 26.4px;
   }
   
+   h4{
+  color: #006B34;
+  font-family: "PT Sans Narrow"; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  }
   
   p{
   
-  color: #8B8D8B;
+  color: #0D1F22;
   font-family: "PT Sans; 
   font-size: 11px; 
   font-style: normal; 
   font-variant: normal; 
   font-weight: 700; 
   line-height: 26.4px;
-  
+
   
   }
   
