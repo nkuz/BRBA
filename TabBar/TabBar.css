@@ -1,10 +1,10 @@
 
 
-.body {
+body {
 	font-family: "Open Sans", sans-serif;
 }
 
-.TabBar {
+#TabBar {
 	background-color: #78CB95;
 	font-size: 1.2em;
 	position: fixed;
@@ -17,12 +17,12 @@
   z-index: 999;
 }
 
-.TabBar a {
+#TabBar a {
   color: white;
   text-decoration: none;
 }
 
-.li {
+li {
 	display: inline;
 	padding: 1em;
   position: relative;
@@ -30,12 +30,12 @@
   right: 1.5em;
 }
 
-.li:hover {
+li:hover {
   color: #006B34;
   cursor: pointer;
 }
 
-.logo {
+#logo {
 	height: 3em;
 	width: 5em;
   position: fixed;
@@ -43,7 +43,7 @@
   top: .3em;
 }
 
-.login {
+#login {
 	height: 1.19em;
 	width: 1.1em;
   position: fixed;
