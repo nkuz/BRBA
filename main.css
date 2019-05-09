@@ -1,0 +1,14 @@
+.tag{
+    color:#5FB3FC;
+    padding: 10px;
+    margin: 10px;
+    background-color:#F1F9FF;
+    border-style: solid;
+    border-color:#D1EBFB;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "PT Sans";
+}
+.tag:hover {
+      cursor: pointer;
+}
