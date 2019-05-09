@@ -141,5 +141,18 @@
 }
 
 .line-break {
+    border: 0;
+    border-bottom: 15px;
+    margin-bottom: 15px;
+    height: 0;
     border-top: 3px solid black;
+}
+
+.business-tag {
+    background-color: #006B34;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    border-radius: 25px;
 }
