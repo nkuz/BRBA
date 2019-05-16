@@ -1,0 +1,79 @@
+body {
+    font-family: 'Open Sans';
+    background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
+}
+
+#title-grid-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+}
+
+#grid-title {
+    grid-column: 1/5;
+    padding: 10px;
+    margin-top: -22px;
+}
+
+#add-an-event {
+    grid-column: 10;
+}
+
+h1 {
+    font-family: "PT Sans"; 
+    font-size: 55px; 
+    font-style: normal; 
+    font-variant: normal; 
+    line-height: 26.4px; 
+    color: #0D1F22;
+}
+
+p {
+    color: #0D1F22;
+    font-family: "PT Sans"; 
+    font-style: normal; 
+    font-variant: normal; 
+    line-height: 26.4px;
+}
+
+#bb-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+}
+
+#bb-container > div  {
+    background-color: #99D5C9;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.flyer {
+    border-radius: 25px;
+}
+
+img {
+    width: 25vw;
+}
+
+#pretty-background {
+    background-color: #ffffff99;
+    box-shadow: 0px 0px 100px 100px #ffffff99;
+}
+
+.pin {
+    width: 30px;
+    padding-right: 85%;
+    margin-left: 90%;
+}
+
+.sample {
+    overflow: auto;
+}
+
+h2 {
+    margin-top: -30px;
+}
