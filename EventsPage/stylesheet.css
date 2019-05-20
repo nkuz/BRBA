@@ -1,16 +1,18 @@
-/* Stylesheet begins with CSS needed for the buttons */
 .button-med-green {
     background-color: #006B34;
     border-radius: 25px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans", sans-serif;
     color: white;
-    padding: 25px;
     border-style: none;
     transition: background-color 0.2s;
-    font-size: 18.72px;
     cursor: pointer;
+    orientation: center;
   }
   
+  #title {
+    padding-left: 10px;
+  }
+
   .button-med-green:hover {
     background-color: #69B578;
   }
@@ -24,7 +26,7 @@
   }
 
   body {
-	font-family: "Open Sans", sans-serif;
+	font-family: "PT Sans", sans-serif;
 }
 
 #TabBar {
@@ -74,50 +76,32 @@ li:hover {
   top: 1.45em;
 }
 
-/* Event cards */
 
-.event-card > img {
-    height: 300px;
-    display: inline-block;
-    vertical-align: middle;
+.event-card {
+  width: 95%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0;
+  height: 60%;
+}
+
+.event-card > div  {
+  background-color: #99D5C9;
+  padding: 25px;
 }
 
 .event-content-left {
-    height: 8em;
-    background: #99D5C9;
-    width: 7.5em;
-    padding: 25px;
-    padding-top: 0px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
-.event-content-centre {
-    background: #99D5C9;
-    width: 12em;
-    padding: 25px;
-    padding-top: 0px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    margin-left: -4px;
-    height: 8em;
+.event-content-left > img {
+  margin-top: 15px;
 }
 
 .event-content-right {
-    background: #99D5C9;
-    width: 40em;
-    padding: 12.5px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    margin-left: -4px;
-    height: 8em;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
 .logo {
@@ -131,40 +115,51 @@ li:hover {
 
 .grid-container {
   display: grid;
-  grid-template-rows: auto auto auto auto;
-  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   grid-row-gap: 20px;
   height: 800px;
-  align-content: center;
   padding-left: 50px;
+  padding-top: 50px;
 }
 
 .header {
   display: grid;
-  grid-row-start: 1;
+  grid-row-start: 2;
+  grid-column-start: 2;
 }
 .events-card-1 {
   display: grid;
-  grid-row-start: 2;
+  grid-row-start: 3;
+  grid-column: 2;
+
 }
 
 .events-card-2 {
   display: grid;
-  grid-row-start: 3;
+  grid-row-start: 4;
+  grid-column: 2;
+
 }
 
 .events-card-3 {
   display: grid;
-  grid-row-start: 4;
+  grid-row-start: 5;
+  grid-column: 2;
 }
 
 #add-event {
   display: grid;
-  grid-column-start: 4;
-  max-width: 200px;
-  max-height: 50px;
-  orientation: center;
-  padding-top: 12.5px;
+  grid-column-start: 5;
+  justify-self: last baseline;
+  height: 50px;
+  width: 150px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.form-button {
+  padding-bottom: 10px;
 }
 
 /* Below is everything needed for the form */
@@ -204,10 +199,10 @@ form h1 {
 
 form .question {
   position: relative;
-  padding: 10px 0;
+  padding: 15px 0;
 }
 form .question:first-of-type {
-  padding-top: 0;
+  padding-top: 30px;
 }
 form .question:last-of-type {
   padding-bottom: 0;
@@ -267,47 +262,56 @@ form .question input[type="text"]:valid ~ label {
   transform: translate(5px, -35px) scale(0.6);
 }
 
+#return-to-events {
+  height: 30px;
+}
+
+#submit {
+  width: 80px;
+  height: 30px;
+}
+
 /* Stylesheet for the specifc events page */
+
+#Return-to-Events-Page {
+  height: 40px;
+  width: 180px;
+}
+
+#RSVP {
+  height: 40px;
+  width: 125px;
+  font-size: 20px;
+}
 
 #specifc-event-name{
   font-family: "PT Sans";
-  font-size: 50pt;
-  color: #333333;
-  
-  
+  font-size: 100px;
+  color:black ;
+  text-align: center;
   }
   
   #event-info{
-    font-family: "PT Sans";
-  font-size: 25pt;
-  color:#57585b;
-  text-align: center;
-    
+  font-family: "PT Sans";
+  color: black;
   }
-  
-  
+
   h3{
     font-family: "PT Sans";
-  font-size: 20pt;
-  color: #57585b;
-  
-    
-  }
-  
-  
-  content > p {
-  
-    color: #57585b;
-    font-family: "PT Sans"; 
-    font-size: 10pt; 
-    
+  color: black;
+  }  
+
+  .info-text > p {
+    font-size: 20px;
+    color:black;
+    font-family: "PT Sans";     
     }
   
   .content{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 120px (2fr, auto) (2fr, auto) 2fr;
-    grid-gap: 30px;
+    grid-gap: 15px;
     margin-right: 20px, 
   
   }
@@ -315,12 +319,12 @@ form .question input[type="text"]:valid ~ label {
   .Event-name{
    
     grid-column: 2 / 3;
-    grid-row: 2/3;
+    grid-row: 1/2;
     text-align: center;
-    padding: 10px;
-    align-items: center, baseline;
+    align-items: center;
     padding-top: 50px;
-    
+    padding-bottom: 0px;
+    font-size: 30px;
   }
   
   
@@ -332,6 +336,7 @@ form .question input[type="text"]:valid ~ label {
     margin-left: 30px;
     border-radius: 25px;
   }
+
   .contact{
     grid-column: 3 / 4;
     grid-row: 3 / 4;
