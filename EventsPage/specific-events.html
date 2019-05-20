@@ -3,12 +3,10 @@
 
 <head>
 
-    <title>uwu (+=^-^=+)</title>
+    <title>Events</title>
     <link rel="stylesheet" type="text/css" href="TabBar.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <meta charset="utf-8">
-
-
     <div id="TabBar">
         <ul>
             <li><img id="logo" src="https://www.ridgebusiness.org/Assets/website%20logo.png"></li>
@@ -40,57 +38,44 @@
     <div class="content">
 
         <div class="Event-name">
-            <h1 id = "specific-event-name">Cinco de Mayo</h1>
-            <a href="general-events.html">
-                <button id="Return-to-Events-Page" class="button-med-green">Return to Events Page</button></a>
-
-
+            <h2 id="specific-event-name">Cinco de Mayo</h1>
+                <a href="general-events.html">
+                    <button id="Return-to-Events-Page" class="button-med-green">Return to Events Page</button></a>
         </div>
         <div class="Event">
             <div id="event-information">
-
                 <div class="image">
                     <img class="logo" src="https://bit.ly/2VBOkZl">
                 </div>
-
-
-
                 <div class="info-text">
-
-                    <h2 id = "event-info">Event Information</h2>
-
-
-                    <p id = "event-time"> Event Time: 3:00pm
-                    </p>
-
-                    <p id = "event-date"> Date: May 23, 2019</p>
-
-                    <p id = "event-desc-long">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eum ad incidunt nemo
-                        placeat reiciendis perferendis.
-                        In commodi illo omnis tempora eius ab perspiciatis sed iusto rem delectus aliquid assumenda
-                        laudantium,
-                        corrupti culpa iste asperiores laborum! Tempora aperiam natus odit.
-                    </p>
+                    <h3> Event Information </h2>
+                        <p id="date-and-time"> 3:00pm on May 5th, 2019 </p>
+                        <p id="event-desc-long">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eum ad incidunt nemo
+                            placeat reiciendis perferendis.
+                            In commodi illo omnis tempora eius ab perspiciatis sed iusto rem delectus aliquid assumenda
+                            laudantium,
+                            corrupti culpa iste asperiores laborum! Tempora aperiam natus odit.
+                        </p>
                 </div>
             </div>
         </div>
         <div class="contact">
-            <h2 id = "contact-info">Contact</h2>
-            <p id = "contact-info-specifics">Peter Parker
+            <h2 id="contact-info">Contact</h2>
+            <p id="contact-info-specifics">Peter Parker
                 908-331-4357
                 peterparker@gmail.com
                 www.friendlyspider.org
             </p>
 
-            <button id="RVSP" class="button-med-green">
-                RVSP
+            <button id="RSVP" onclick="window.location.href = 'rsvpform.html';" class="button-med-green">
+                RSVP
             </button>
 
         </div>
         <div class="four">
 
-            <h3 id = "event-location">Location: Ridge High School, 268 S Finley Ave, Basking Ridge, NJ 07920</h3>
+            <h3 id="event-location">Location: Ridge High School, 268 S Finley Ave, Basking Ridge, NJ 07920</h3>
 
             <div id="map"></div>
             <script>
