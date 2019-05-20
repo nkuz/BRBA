@@ -2,7 +2,7 @@
 <html style="background-color:#69B578;">
 
 <head>
-<title> uwu (=^-^=)</title>
+    <title> uwu (=^-^=)</title>
     <link rel="stylesheet" href="stylesheet.css">
 
     <script>
@@ -14,23 +14,38 @@
 <body translate="no">
     <form>
         <center>
-            <h1>Add an Event</h1>
-        </center>
+            <h1><b>Add an Event</b></h1>
+            <button id="return-to-events" onclick="window.location.href = 'general-events.html';" class="button-med-green">
+                Return to General Events
+            </button>        </center>
         <div class="question">
             <input type="text" required />
-            <label>First Name</label>
+            <label>Company Name</label>
         </div>
         <div class="question">
             <input type="text" required />
-            <label>Last Name</label>
+            <label>Event Name</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Description</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Date</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Time</label>
         </div>
         <div class="question">
             <input type="text" required />
             <label>Email Address</label>
         </div>
-        <div class="question">
-            <input type="text" required />
-            <label>Company Name</label>
+        <div class="form-button">
+            <button id="submit" input ="submit" class="button-med-green">
+                Submit
+            </button>
         </div>
 
     </form>
