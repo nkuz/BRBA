@@ -1,20 +1,6 @@
  #title {
     padding-left: 10px;
   }
-  .button-med-green {
-    background-color: #006B34;
-    border-radius: 25px;
-    font-family: "Open Sans", sans-serif;
-    color: white;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-style: none;
-    transition: background-color 0.2s;
-    font-size: 18.72px;
-    cursor: pointer;
-  
-  }
   
   body {
 	font-family: "PT Sans", sans-serif;
@@ -119,18 +105,17 @@ li:hover {
   grid-row-start: 2;
   grid-column-start: 2;
 }
+
 .events-card-1 {
   display: grid;
   grid-row-start: 3;
   grid-column: 2;
-
 }
 
 .events-card-2 {
   display: grid;
   grid-row-start: 4;
   grid-column: 2;
-
 }
 
 .events-card-3 {
@@ -154,7 +139,6 @@ li:hover {
   padding-bottom: 10px;
   text-align: center;
 }
-
 
   /* The container */
   .container {
@@ -263,8 +247,7 @@ li:hover {
       font-family: "PT Sans";
     font-size: 25pt;
     color:#57585b;
-    text-align: center;
-      
+    text-align: center; 
     }
 
     
@@ -274,7 +257,8 @@ li:hover {
   font-size: 20pt;
   color:#57585b;
   }  
-	p {
+	
+p {
   
     color:#57585b;
     font-family: "PT Sans"; 
