@@ -146,10 +146,10 @@ li:hover {
 
 }
 
-.events-card-3 {
+.contact {
   display: grid;
-  grid-row-start: 5;
-  grid-column: 2;
+  grid-row-start: 4;
+  grid-column: 1;
 }
 
 #add-event {
