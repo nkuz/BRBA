@@ -49,6 +49,8 @@ p {
     background-color: #99D5C9;
     padding: 20px;
     border-radius: 25px;
+    width: 30%;
+
 }
 
 .flyer {
@@ -56,7 +58,7 @@ p {
 }
 
 img {
-    width: 25vw;
+    width: 100%;
 }
 
 #pretty-background {
@@ -77,3 +79,33 @@ img {
 h2 {
     margin-top: -30px;
 }
+
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+
+  }
+
+  #mydiv2 {
+      width: 25%;
+    position: absolute;
+    z-index: 9;
+    left: 500px;
+
+  }
+  
+  #mydivheader2 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    width: 25%;
+    left: 500px;
+
+  }
