@@ -1,36 +1,4 @@
-
-/*
-.button-med-green {
-    background-color: #006B34;
-    border-radius: 25px;
-    font-family: "PT Sans", sans-serif;
-    color: white;
-    border-style: none;
-    transition: background-color 0.2s;
-    cursor: pointer;
-    orientation: center;
-  }
-  
-  #title {
-    padding-left: 10px;
-  }
-
-  .button-med-green:hover {
-    background-color: #69B578;
-  }
-  
-  .button-med-green:active {
-    background-color: #99D5C9;
-  }
-  
-  .button-med-green:focus {
-    outline: #0D1F22;
-  }
-
-
-  */
-
-  #title {
+ #title {
     padding-left: 10px;
   }
   .button-med-green {
@@ -187,14 +155,9 @@ li:hover {
 #add-event {
   display: grid;
   grid-column-start: 5;
-  /*
-  justify-self: last baseline;
-  */
   margin-top: 60px;
-
   height: 50px;
   width: 150px;
-  /*padding-top: 20px;*/
   font-size: 15px;
   text-align: center;
 }
@@ -303,18 +266,13 @@ form .question input[type="text"]:valid ~ label {
   -webkit-transform: translate(5px, -35px) scale(0.6);
   transform: translate(5px, -35px) scale(0.6);
 }
-
-
 form .question .attend{
     margin-top: 25px;
     font-size: 17px;
     margin-bottom: 0px;
     
   }
-  
-  
-  
-  
+
   /* The container */
   .container {
     display: block;
@@ -331,10 +289,7 @@ form .question .attend{
     -ms-user-select: none;
     user-select: none;
   }
-  
-  
-  
-  
+
   .container input {
     position: absolute;
     opacity: 0;
@@ -384,34 +339,12 @@ form .question .attend{
       border-radius: 50%;
       background: white;
   }
-  
+
   label.container{
   color: #69B578;
   font-size: 17px;
   font-family: "PT Sans";
-  
-  
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
 
 #return-to-events {
   height: 45px;
@@ -421,19 +354,6 @@ form .question .attend{
   width: 100px;
   height: 60px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Stylesheet for the specifc events page */
 
 #specifc-event-name{
@@ -452,10 +372,8 @@ form .question .attend{
 
   h1{
     font-family: "PT Sans";
-    font-size: 50pt;
+    font-size: 40pt;
     color: #333333;
-    
-    
     }
     
     h2{
@@ -473,7 +391,7 @@ form .question .attend{
   font-size: 20pt;
   color:#57585b;
   }  
-  /*.info-text >*/ p {
+	p {
   
     color:#57585b;
     font-family: "PT Sans"; 
@@ -521,8 +439,6 @@ form .question .attend{
     inset-inline-start: 40px;
     
     align-items: center, baseline;
-      
-  
   }
 
   .contact > p {
@@ -542,7 +458,7 @@ padding-left: 30px;
   #RSVP{
     grid-column-start: 2;
     justify-self: center;
-    margin-left: 120px;
+    margin-left: 100px;
     margin-bottom: 20px;
     
 
@@ -565,10 +481,6 @@ padding-left: 30px;
     
   }
   
-  
-  
-  
-  
   .image{
   
     grid-template-columns: 1/2;
@@ -581,7 +493,6 @@ padding-left: 30px;
   }
   
   .info-text{
-  
   
     grid-template-columns: 2/3;
     grid-template-rows: 1/2;
