@@ -52,8 +52,8 @@ li:hover {
 	right: 1.3em;
   top: 1.45em;
 }
-
-.event-card {
+/* The Event Card is changed to use the grid instead of flex/padding. Remove this after it is changed on the main stylesheet */
+.event-card-changed {
   width: 95%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -61,24 +61,23 @@ li:hover {
   height: 60%;
 }
 
-.event-card > div  {
+.event-card-changed > div  {
   background-color: #99D5C9;
   padding: 25px;
 }
 
-.event-content-left {
+.events-content-left {
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
 }
 
-.event-content-left > img {
+.events-content-left > img {
   margin-top: 15px;
 }
 
-.event-content-right {
+.events-content-right {
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  
 }
 
 .logo {
