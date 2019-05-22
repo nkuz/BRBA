@@ -3,83 +3,12 @@
 	<head>
 		<link rel="stylesheet" href="main.css">
 		<meta charset="utf-8">
-		<title>BRBA Buttons</title>
-		<!-- import the webpage's stylesheet -->
-		<link rel="stylesheet"  type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-		<style type = text/css>
-        body {
-            font-family: 'Open Sans';
-        }
-    </style>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	</head>
-	<h1>Button Samples Demo (With Possible Animation)</h1>
-	<p>Animations were added from the animate.css library upon button click just to show what I was thinking for the animation aspect.</p>
+	<body>
+	<h1 id="title">Events</h1>
 
-	<p>
-		Green Buttons Examples
-	</p>
-	<button class="button-small-green">
-		abcdef
-	</button>
 
-	<button class="button-med-green">
-		abcdef
-	</button>
 
-	<button class="button-large-green">
-		abcdef
-	</button>
-
-	<p>
-		Clear Button Examples
-	</p>
-	<button class="button-small-clear">
-		abcdef
-	</button>
-
-	<button class="button-med-clear">
-		abcdef
-	</button>
-
-	<button class="button-large-clear">
-		abcdef
-	</button>
-	<script>
-      /*Function taken from the animate.css github documentation. I didn't make this...*/
-    function animateCSS(element, animationName, callback) {
-      const node = document.querySelector(element);
-       node.classList.add('animated', animationName);
-
-    function handleAnimationEnd() {
-        node.classList.remove('animated', animationName);
-        node.removeEventListener('animationend', handleAnimationEnd);
-
-        if (typeof callback === 'function') callback();
-    }
-
-    node.addEventListener('animationend', handleAnimationEnd);
-}
-   /*Here ends their function :)*/
-      $(".button-small-green").click(() => {
-        animateCSS('.button-small-green', 'pulse');
-      })
-      $(".button-med-green").click(() => {
-        animateCSS('.button-med-green', 'pulse');
-      })
-      $(".button-large-green").click(() => {
-        animateCSS('.button-large-green', 'pulse');
-      })
-      $(".button-small-clear").click(() => {
-        animateCSS('.button-small-clear', 'pulse');
-      })
-      $(".button-med-clear").click(() => {
-        animateCSS('.button-med-clear', 'pulse');
-      })
-      $(".button-large-clear").click(() => {
-        animateCSS('.button-large-clear', 'pulse');
-      })
-    </script>
 	</body>
 </html>
