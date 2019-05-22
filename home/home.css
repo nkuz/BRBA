@@ -146,10 +146,22 @@ li:hover {
 
 }
 
-.contact {
+.contact1 {
   display: grid;
   grid-row-start: 4;
   grid-column: 1;
+}
+
+.contact2 {
+  display: grid;
+  grid-row-start: 3;
+  grid-column: 3;
+}
+
+.contact3 {
+  display: grid;
+  grid-row-start: 3;
+  grid-column: 4;
 }
 
 #add-event {
@@ -511,3 +523,25 @@ padding-left: 30px;
   margin-left: 30px;
   margin-right: 30px;
   }
+
+.upcoming-events-card {
+    width: 25%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 0;
+}
+
+.upcoming-events-card > div  {
+    background-color: #99D5C9;
+    padding: 25px;
+}
+
+.upcoming-content-left {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.upcoming-content-right {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
