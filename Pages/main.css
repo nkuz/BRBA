@@ -329,52 +329,172 @@ img {
     border-radius: 25px;
 }
 
-.event-card {
-    margin: 1em;
+.event-card-changed {
+  width: 95%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0;
+  height: 60%;
 }
 
-.event-card > img {
-    height: 300px;
-    display: inline-block;
-    vertical-align: middle;
+.event-card-changed > div  {
+  background-color: #99D5C9;
+  padding: 25px;
 }
 
-.event-content-left {
-    height: 8em;
-    background: #99D5C9;
-    width: 7.5em;
-    padding: 25px;
-    padding-top: 0px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
+.events-content-left {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }
 
-.event-content-centre {
-    background: #99D5C9;
-    width: 12em;
-    padding: 25px;
-    padding-top: 0px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    margin-left: -4px;
-    height: 8em;
+.events-content-left > img {
+  margin-top: 15px;
 }
 
-.event-content-right {
-    background: #99D5C9;
-    width: 20em;
-    padding: 12.5px;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0;
-    margin-left: -4px;
-    height: 8em;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+.events-content-right {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.logo {
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
+  grid-row-gap: 20px;
+  height: 800px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.header {
+  display: grid;
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.events-card-1 {
+  display: grid;
+  grid-row-start: 3;
+  grid-column: 2;
+}
+
+.events-card-2 {
+  display: grid;
+  grid-row-start: 4;
+  grid-column: 2;
+}
+
+.events-card-3 {
+  display: grid;
+  grid-row-start: 5;
+  grid-column: 2;
+}
+
+#add-event {
+  display: grid;
+  grid-column-start: 5;
+  justify-self: last baseline;
+  height: 50px;
+  width: 150px;
+  margin-top: 14px;
+  padding-top: 13px;
+  font-size: 15px;
+}
+
+.form-button {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+  /* The container */
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-left: 14px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #69B578;
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 5px;
+    left: 5px;
+    align-self: center;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+  label.container{
+  color: #69B578;
+  font-size: 17px;
+  font-family: "PT Sans";
+  }
+
+#return-to-events {
+  height: 45px;
+}
+
+#submit {
+  width: 100px;
+  height: 60px;
 }
 
 /* Upcoming event cards */
@@ -765,6 +885,19 @@ body, html {
   transition: 0.5s;
 }
 
+li {
+	display: inline;
+	padding: 1em;
+  position: relative;
+  top: .5em;
+  right: 1.5em;
+}
+
+li:hover {
+  color: #006B34;
+  cursor: pointer;
+}
+
 #logo {
     height: 3em;
     width: 5em;
@@ -794,10 +927,11 @@ body, html {
     outline: none;
 }
 
-html, body
+html,body
 {
     height: 100%;
     min-height: 100%;
+    overflow:auto
 }
 
 body
