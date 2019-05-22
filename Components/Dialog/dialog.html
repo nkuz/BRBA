@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="dialog.css">
+    <meta charset="utf-8">
+    <title>Dialog</title>
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"
+  		integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+  		crossorigin="anonymous">
+	</script>
+  </head>
+  <body>
+  	<div class="dialog_container">
+	    <div class="dialog">
+	    	<p class="dialog_close">&#10006;</p>
+	    	<p class="dialog_content">
+	      		You have entered something dumb plz fix asap
+	      	</p>
+	    </div>
+    </div>   
+    <script>
+		$(".dialog_close").click(function() {
+			$(this).closest(".dialog_container").fadeOut(500);
+		})
+		$(document).on('click', function (e) {
+    		if ($(e.target).closest(".dialog").length === 0) {
+        		$(".dialog_container").fadeOut(500);
+    		}
+		});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Sumbit a Flyer for the Board</title>
+<link rel="stylesheet"  type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="flyer-form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="flyer-form.js"></script>
+    <style>
+        #init-buttons {
+            margin-top: 24vh;
+            background-color: white;
+            border-radius: 25px;
+            width: 60%;
+            padding: 50px;
+            margin-left: 15%;
+        }
+    </style>
+</head>
+
+<body>
+    
+<div id="init-buttons">
+        <center><h1>Select Upload Method</h1></center>
+       <center> <button onclick = "function1()" class="button-large-green">Input Event Info</button>
+        <button onclick = "function2()" class="button-large-green">Upload Your Flyer</button></center>
+</div>
+
+<form id="upload-words">
+    <h2 id="stupid">Add Your Local Event Flyer</h2>
+        <div class="question">
+            <input type="text" required />
+            <label>Event Name</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Company/Sponsor Name</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Event Tagline</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Location</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Date (MM/DD/YYYY)</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Time (HH:MM)</label>
+        </div>
+        <h2>Contact Information</h2>
+        <div class="question">
+            <input type="text" required />
+            <label>First + Last Name</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Contact Email</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Phone</label>
+        </div>
+        <div class="question">
+            <input type="text" required />
+            <label>Website</label>
+        </div>
+            <center><button onclick="window.location.href='community-board.html'" class="button-med-green">Sumbit</button></center></div>
+    </form>
+
+
+<form id="upload-flyer">
+<div>
+    <center><button class="button-med-clear">Upload a Flyer</button></center>
+    <a href="community-board.html"><center><button  class="button-med-green">Sumbit</button></center></a>
+    </div>
+</form>
+
+<script>
+function function1() {
+    $("#init-buttons").fadeOut();
+    $("#upload-words").fadeIn();
+  }
+
+  function function2() {
+    $("#init-buttons").fadeOut();
+    $("#upload-flyer").fadeIn();
+  }
+
+</script>
+
+</body>
+
+</html>

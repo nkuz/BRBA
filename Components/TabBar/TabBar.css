@@ -1,0 +1,52 @@
+
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+#TabBar {
+	background-color: #78CB95;
+	font-size: 1.2em;
+	position: fixed;
+	right: 0;
+  top: 0;
+	width: 100vw;
+	height: 80px;
+	text-align: right;
+	color: white;
+  z-index: 999;
+}
+
+#TabBar a {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+	display: inline;
+	padding: 1em;
+  position: relative;
+  top: .5em;
+  right: 1.5em;
+}
+
+li:hover {
+  color: #006B34;
+  cursor: pointer;
+}
+
+#logo {
+	height: 3em;
+	width: 5em;
+  position: fixed;
+	left: 1em;
+  top: .3em;
+}
+
+#login {
+	height: 1.19em;
+	width: 1.1em;
+  position: fixed;
+	right: 1.3em;
+  top: 1.45em;
+}

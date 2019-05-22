@@ -1,0 +1,71 @@
+
+
+
+body {
+    background-color: white;
+  }
+  
+  .foo {
+    float: center;
+    width: 50px;
+    height: 10px;
+    margin: 5px;
+    border: 50px solid #99D5C9;
+  }
+  
+  h1 { font-family: "PT Sans"; 
+  font-size: 55px; 
+  font-style: normal; 
+  font-variant: normal; 
+  line-height: 26.4px; 
+  color: #0D1F22;
+  
+  
+  
+  } 
+  
+  
+  h2{
+  color: white;
+  font-family: "PT Sans Narrow"; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  background-color: #99D5C9;
+  }
+  
+  h3{
+  color:#99D5C9;
+  font-family: "PT Serif"; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  }
+  
+   h4{
+  color: #006B34;
+  font-family: "PT Sans Narrow"; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+  }
+  
+  p{
+  
+  color: #0D1F22;
+  font-family: "PT Sans; 
+  font-size: 11px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+
+  
+  }
+  

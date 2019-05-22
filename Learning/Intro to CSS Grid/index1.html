@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Intro to CSS Grid</title>
+        <style>
+           .wrapper
+           {
+               display:grid;
+               grid-template-columns: repeat(4, 1fr);
+               grid-column-gap: 1em;
+               grid-row-gap: 1em;
+               grid-auto-rows: minmax(100px, auto);
+           } 
+           .wrapper > div {
+               padding: 1em;
+               background: #eee;
+           }
+           .wrapper > div:nth-child(odd){
+               background:#ddd;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, non!
+            </div>
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, obcaecati.
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ea.    
+            </div>
+            <div>
+                Lorem 
+            </div>
+        </div>
+    </body>
+</html>

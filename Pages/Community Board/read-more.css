@@ -1,0 +1,28 @@
+body {
+    font-family: "open sans";
+    background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
+}
+
+#content-grid {
+    margin: 50px;
+    margin-top: 100px;
+    background-color: #99D5C9;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+  }
