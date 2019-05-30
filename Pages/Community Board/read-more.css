@@ -2,6 +2,13 @@ body {
     font-family: "open sans";
     background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
 }
+#pretty-background {
+  background-color: #ffffff50;
+  z-index: -3333;
+  height: 130vh;
+  width: 100vw;
+  margin-top: -30px;
+}
 
 #content-grid {
     margin: 50px;
@@ -9,6 +16,7 @@ body {
     background-color: #99D5C9;
     padding: 25px;
     border-radius: 25px;
+    margin-top: 120px;
 }
 
 #mydiv {
@@ -26,3 +34,22 @@ body {
     background-color: #2196F3;
     color: #fff;
   }
+
+  #logo {
+    border-radius: 0px;
+  }
+
+  #event-name {
+    line-height: 50px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 700px) {
+
+  }
+
