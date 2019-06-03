@@ -26,7 +26,13 @@ body {
 }
 
 #add-an-event {
-    grid-column: 10;
+    grid-column: 7/9;
+    width: 100%;
+
+}
+
+#make-wider {
+    width: 400%;
 }
 
 h1 {
@@ -114,11 +120,24 @@ h2 {
     left: 500px;
 
   }
+  #logo {
+      border-radius: 0px;
+  }
+  a {
+      color: white;
+  }
+  #add-an-event {
+      width: 50px;
+  }
+
 }
   @media only screen and (max-width: 700px) {
     body {
         font-family: 'Open Sans';
         background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
+    }
+    #logo {
+        border-radius: 0px;
     }
     #pretty-background-mobile {
         background-color: #ffffff50;
@@ -169,6 +188,9 @@ h2 {
     }
     #mydiv2 {
         border-radius: 25px;
+    }
+    a {
+        color: white;
     }
   }
   
