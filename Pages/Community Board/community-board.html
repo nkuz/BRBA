@@ -10,6 +10,7 @@
         <script src="community-board.js"></script>
     </head>
     <body>
+            <div id="pretty-background-mobile"></div>
         <div id="pretty-background">
         <div id="TabBar">
             <ul>
@@ -40,24 +41,31 @@
             <div id="add-an-event"><button class="button-large-clear" onclick="window.location.href='flyer-form.html'">+ Add an Event</button></div>
         </div>
 
-        <div id="bb-container">
-                <div id="mydiv">
+        <div id="bb-container" >
+                
+            <div id="mydiv" >
                 <div class="file-upload" id="mydivheader">
-                <a href="https://i.pinimg.com/236x/bb/cd/33/bbcd33f2e15e0f7ca573510658c18bfe--event-flyers.jpg" target="_blank" download="myimage"><img src="https://i.pinimg.com/236x/bb/cd/33/bbcd33f2e15e0f7ca573510658c18bfe--event-flyers.jpg" /></a>
+                <a href="https://i.pinimg.com/236x/bb/cd/33/bbcd33f2e15e0f7ca573510658c18bfe--event-flyers.jpg" target="_blank" download="myimage"><img class="flyer-img" src="https://i.pinimg.com/236x/bb/cd/33/bbcd33f2e15e0f7ca573510658c18bfe--event-flyers.jpg" /></a>
 
             </div>
 
 
+            </div>
 
-                </div>
-                <div id="mydiv2">
-            <div class="sample" id="mydiv2header">
+
+                <div id="mydiv2" >
+            <div class="sample event-cardm" id="mydiv2header">
                 <img class="pin" src="http://babblingcafe.com/wp-content/uploads/2017/11/pushpin-white-right-slant.png">
-                <h2 id="event-name">Example Event</h2>
-                <p id="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quam molestias veniam repudiandae laboriosam reiciendis corrupti beatae quo, modi voluptates ipsa eos nostrum suscipit quibusdam. Repellendus commodi illum quidem error minima nesciunt debitis. Libero, eaque quibusdam? Asperiores, amet! Officia laboriosam pariatur voluptatibus. Animi unde accusantium ex laboriosam similique facilis nobis.</p>
+                <div class="event-content-leftm">
+                <h2 id="event-name">Example Event</h2></div>
+                <div class="event-content-centrem">
+                <p id="event-description">Lorem ipsum dolor sit amet consectetur adipobis.</p>
+                </div>
+                <div class="event-content-rightm">
                 <h4 id="event-day-time">May 100, 2020</h4>
                 <h4 id="event-location">Town Hall, Basking Ridge</h4>
                 <a href="read-more.html"><h6>Read More</h6></a>
+                </div>
             </div>
                 </div>
         </div>

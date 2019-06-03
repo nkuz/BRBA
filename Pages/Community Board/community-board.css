@@ -1,3 +1,4 @@
+@media only screen and (min-width: 700px) {
 body {
     font-family: 'Open Sans';
     background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
@@ -10,11 +11,12 @@ body {
     grid-gap: 10px;
 }
 
-#pretty-background {
+#pretty-background-mobile {
     background-color: #ffffff50;
     z-index: -3333;
     height: 100vh;
     width: 100vw;
+    position: fixed;
 }
 
 #grid-title {
@@ -112,3 +114,61 @@ h2 {
     left: 500px;
 
   }
+}
+  @media only screen and (max-width: 700px) {
+    body {
+        font-family: 'Open Sans';
+        background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
+    }
+    #pretty-background-mobile {
+        background-color: #ffffff50;
+        z-index: -3333;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+    }
+    #title-grid-container {
+        margin-top: 130px;
+        margin-left: 20px;
+    }
+    #add-an-event {
+        margin-left: 15vw;
+    }
+    button {
+        width: 300px;
+        padding: 10px;
+    }
+    #bb-container > div {
+        background-color: #99D5C9;
+        margin: 20px;
+    }
+    #mydiv {
+        border-radius: 25px;
+    }
+    .flyer-img {
+        padding: 25px;
+        width: 90%;
+        border-radius: 25px;
+
+    }
+    .pin {
+        display: none;
+    }
+    #bb-container > img {
+        border-radius: 25px;
+    }
+    .event-content-leftm > h2 {
+        margin-top: 30%;
+    }
+    .event-cardm {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 0;
+        border-radius: 25px;
+    }
+    #mydiv2 {
+        border-radius: 25px;
+    }
+  }
+  
