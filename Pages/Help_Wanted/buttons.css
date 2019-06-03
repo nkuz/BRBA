@@ -1,0 +1,210 @@
+
+/*
+  Button CSS Styles w/ defined usage
+  BRBA Project
+*/
+
+/*
+  Small Green Button Style
+  Text is size of p element default
+  Use for:
+    - Add an Event
+    - RSVP
+    - Upload Logo
+    - Upload Flyer
+    - Search
+    - Apply
+*/
+.button-small-green {
+    background-color: #006B34;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-small-green:hover {
+    background-color: #69B578;
+}
+
+.button-small-green:active {
+    background-color: #99D5C9;
+}
+
+.button-small-green:focus {
+    outline: #0D1F22;
+}
+
+/*
+  Medium Green Button Style
+  Text is size of h3 element default
+  Use for:
+    - Return to Event Page
+*/
+.button-med-green {
+    background-color: #006B34;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 18.72px;
+    cursor: pointer;
+
+}
+
+.button-med-green:hover {
+    background-color: #69B578;
+}
+
+.button-med-green:active {
+    background-color: #99D5C9;
+}
+
+.button-med-green:focus {
+    outline: #0D1F22;
+}
+
+/*
+  Large Green Button Style
+  Text is same size as h2 element default
+  Use for:
+    - Add an Event
+    - RSVP
+*/
+
+.button-large-green {
+    background-color: #006B34;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button-large-green:hover {
+    background-color: #69B578;
+}
+
+.button-large-green:active {
+    background-color: #99D5C9;
+}
+
+.button-large-green:focus {
+    outline: #0D1F22;
+}
+
+/*
+  Small Clear Button Style
+  Use for:
+    - TBD
+*/
+.button-small-clear {
+    background-color: #ffffff00;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #0D1F22;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.button-small-clear:hover {
+    background-color: #99D5C950;
+}
+
+.button-small-clear:active {
+    background-color: #99D5C9;
+}
+
+.button-small-clear:focus {
+    outline: #0D1F22;
+}
+
+/*
+  Medium Clear Button Style
+  Use for:
+    - Add an event on bulletin board
+*/
+
+.button-med-clear {
+    background-color: #ffffff00;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #0D1F22;;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 18.72px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-med-clear:hover {
+    background-color: #99D5C950;
+}
+
+.button-med-clear:active {
+    background-color: #99D5C9;
+}
+
+.button-med-clear:focus {
+    outline: #0D1F22;
+}
+
+/*
+  Large Clear Button Style
+  Use for:
+    - TBD
+*/
+
+.button-large-clear {
+    background-color: #ffffff00;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #0D1F22;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-large-clear:hover {
+    background-color: #99D5C950;
+}
+
+.button-large-clear:active {
+    background-color: #99D5C9;
+}
+
+.button-large-clear:focus {
+    outline: #0D1F22;
+}
+
+/* Event cards */
