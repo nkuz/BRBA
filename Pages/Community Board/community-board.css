@@ -26,7 +26,13 @@ body {
 }
 
 #add-an-event {
-    grid-column: 10;
+    grid-column: 7/9;
+    width: 100%;
+
+}
+
+#make-wider {
+    width: 400%;
 }
 
 h1 {
