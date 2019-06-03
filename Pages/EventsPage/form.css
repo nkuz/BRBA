@@ -1,13 +1,36 @@
-body {
+/*This is necessary as a temp fix. The current form does not use the main stylesheet */
+.button-small-green {
+  background-color: #006B34;
+  border-radius: 25px;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: none;
+  transition: background-color 0.2s;
+  font-size: 16px;
+  cursor: pointer;
+}
 
-    background-color: #f4f4f4;
+.button-small-green:hover {
+  background-color: #69B578;
+}
+
+.button-small-green:active {
+  background-color: #99D5C9;
+}
+
+.button-small-green:focus {
+  outline: #0D1F22;
+}
+/* End of temp fix */
+body {
+    background-color: #fefefe;
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
     margin: 0;
     color: #333;
-  }
-  
-  body {
     display: flex;
     justify-content: center;
     padding-top: 135px;
@@ -23,10 +46,11 @@ body {
   
   main {
     align-self: center;
+    /* The code below is commented out to ensure that the form looks consistent on mobile and desktop 
     background-color: #fefefe;
     border: 1px solid #f2f2f2;
     border-radius: 3px;
-    box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 30px 60px -30px rgba(0, 0, 0, 0.5); */
     min-width: 350px;
     max-width: 750px;
     width: 700vw;
