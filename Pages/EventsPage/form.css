@@ -70,7 +70,7 @@ body {
   .form-field {  
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: .5em;
+    margin-top: 1em;
   }
   .form-field:last-child {
     margin-bottom: 0;

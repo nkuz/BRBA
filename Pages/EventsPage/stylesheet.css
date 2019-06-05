@@ -292,7 +292,6 @@ p {
 }
 
 .return-button{
- 
   grid-column: 2;
   grid-row: 2;
   text-align: center;
