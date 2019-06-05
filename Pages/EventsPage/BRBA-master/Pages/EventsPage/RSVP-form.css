@@ -1,0 +1,291 @@
+ 
+
+  #title {
+    padding-left: 10px;
+  }
+  .button-med-green {
+    background-color: #006B34;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 18.72px;
+    cursor: pointer;
+  
+  }
+  
+  .button-med-green:hover {
+    background-color: #69B578;
+  }
+  
+  .button-med-green:active {
+    background-color: #99D5C9;
+  }
+  
+  .button-med-green:focus {
+    outline: #0D1F22;
+  }
+
+  body {
+    font-family: "PT Sans", sans-serif;
+    background: transparent; 
+}
+
+
+
+
+
+
+/* Below is everything needed for the form */
+
+
+
+
+
+.transition, form .question label, form .question input[type="text" ] {
+  -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+}
+
+
+form{
+  position: relative;
+  display: inline-block;
+  max-width: 700px;
+  min-width: 700px;
+  box-sizing: border-box;
+  padding: 30px 25px;
+  background-color: white;
+  border-radius: 40px;
+  margin: 40px 0;
+  left: 50%;
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+/*
+form h1 {
+  color: #006B34;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  margin-left: 15px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+}
+
+*/
+
+form .question {
+  position: relative;
+  padding: 15px 0;
+}
+form .question:first-of-type {
+  padding-top: 30px;
+}
+form .question:last-of-type {
+  padding-bottom: 0;
+}
+form .question label {
+  transform-origin: left center;
+  color: #69B578;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  font-size: 17px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  display: block;
+  position: absolute;
+  margin-top: -40px;
+  z-index: 2;
+  pointer-events: none;
+}
+form .question input[type="text" ] {
+  appearance: none;
+  background-color: none;
+  border: 1px solid #B7D3F2;
+  line-height: 0;
+  font-size: 17px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 60px;
+  color: #B7D3F2;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+form .question input[type="text" ]:focus {
+  outline: none;
+  background: #B7D3F2;
+  color: white;
+  margin-top: 30px;
+}
+form .question input[type="text" ]:valid {
+  margin-top: 30px;
+}
+form .question input[type="text" ]:focus ~ label {
+  -moz-transform: translate(0, -35px);
+  -ms-transform: translate(0, -35px);
+  -webkit-transform: translate(0, -35px);
+  transform: translate(0, -35px);
+}
+form .question input[type="text" ]:valid ~ label {
+  text-transform: uppercase;
+  font-style: italic;
+  -moz-transform: translate(5px, -35px) scale(0.6);
+  -ms-transform: translate(5px, -35px) scale(0.6);
+  -webkit-transform: translate(5px, -35px) scale(0.6);
+  transform: translate(5px, -35px) scale(0.6);
+}
+
+
+form .question .attend{
+    margin-top: 25px;
+    font-size: 17px;
+    margin-bottom: 0px;
+    
+  }
+  
+  
+  
+  
+  /* The container */
+  .RSVP-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-left: 14px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-size: 17px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  
+  
+  
+  .RSVP-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 17px;
+    width: 17px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .RSVP-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .RSVP-container input:checked ~ .checkmark {
+    background-color:  #69B578;   /* <-------*/
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .RSVP-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .RSVP-container .checkmark:after {
+       top: 5px;
+    left: 5px;
+    align-self: center;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+  
+  label.RSVP-container{
+  color: #69B578;
+  font-size: 17px;
+  font-family: "PT Sans";
+  
+  
+  }
+  
+  
+
+
+#return-to-events {
+  height: 45px;
+  /*width: 264px;*/
+}
+
+#submit {
+  width: 100px;
+  height: 60px;
+}
+
+
+.RSVP-form-button {   /*Submit button*/
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+
+
+
+
+  .RSVP-page h1{
+    font-family: "PT Sans";
+    font-size: 50pt;
+    color: #006B34;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  margin-left: 15px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+    
+    
+    }
+    
+    .RSVP-page h2{
+      font-family: "PT Sans";
+    font-size: 25pt;
+    color:#57585b;
+    text-align: center;
+      
+    }
+
+    
+
+  .RSVP-page h3{
+    font-family: "PT Sans";
+  font-size: 20pt;
+  color:#57585b;
+  }  
+  

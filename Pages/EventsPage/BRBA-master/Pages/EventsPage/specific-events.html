@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Specifc Events Page</title>
+
+    <link rel="stylesheet" type="text/css" href= "../main.css">>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+
+
+    <div id="TabBar">
+        <ul>
+            <li><img id="logo" src="https://www.ridgebusiness.org/Assets/website%20logo.png"></li>
+            <li><img id="login" src="https://i.pinimg.com/originals/dc/f6/b7/dcf6b71f6d4fbb0a0f541a90e67f852c.png"></li>
+            <li class="wordItem">
+                <a href="#home">HOME</a>
+            </li>
+            <li class="wordItem">
+                <a href="#members">MEMBERS</a>
+            </li>
+            <li class="wordItem">
+                <a href="#bulletin">BULLETIN</a>
+            </li>
+            <li class="wordItem">
+                <a href="#events">EVENTS</a>
+            </li>
+            <li class="wordItem">
+                <a href="#contact">CONTACT</a>
+            </li>
+            <li class="wordItem">
+                <a href="#Login">LOGIN</a>
+            </li>
+        </ul>
+    </div>
+</head>
+
+<body>
+  <div class= "specific-events">
+
+    <div class="content">  <!--grid container-->
+
+        <div class="Event-name">
+
+                <div class="Event-name-grid">
+
+            <h1 id = "specific-event-name">Cinco de Mayo</h1>
+            <a href="General-events.html">
+                <button id="Return-to-Events-Page" class="button-med-green">Return to Events Page</button></a>
+
+
+        </div>
+
+    </div>
+        <div class="Event">
+            <div id="event-information">
+
+                <div class="image">
+                    <img class="logo" src="https://bit.ly/2VBOkZl">
+                </div>
+
+
+
+                <div class="info-text">
+
+                    <div class = "info-title">
+
+                 <h2 id = "event-info">Event Information</h2> 
+
+         
+                    <p id = "event-time"> Event Time: 3:00pm</p>
+
+                    <p id = "event-date"> Date: May 23, 2019</p>
+
+
+                </div>
+
+                    <p id = "event-desc-long">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eum ad incidunt nemo
+                        placeat reiciendis perferendis.
+                        In commodi illo omnis tempora eius ab perspiciatis sed iusto rem delectus aliquid assumenda
+                        laudantium,
+                        corrupti culpa iste asperiores laborum! Tempora aperiam natus odit.
+                    </p>
+                </div>
+           
+            </div>
+        </div>
+
+       
+       
+        <div class ="contact">
+       
+
+            
+            <h2 id = "contact-info">Contact</h2>
+
+            <div class="contact-ingrid">
+            <p id = "contact-info-specifics"> Name: Peter Parker </p>
+            <p id = "contact-info-specifics"> <i class="fas fa-phone-square"> </i>   908-331-4357</p>
+            <p id = "contact-info-specifics"> <i class="fas fa-envelope-square"> </i>  peterparker@gmail.com </p>
+            <p id = "contact-info-specifics"> <i class="fas fa-globe"> </i>  www.friendlyspider.org</p>
+
+        </div>
+                
+            <a href="RSVP-form.html">
+                    <button id="RSVP" class="button-med-green">RSVP</button></a>
+           
+              
+
+        
+
+    </div>
+
+
+        <div class="four">
+
+            <h3 id = "event-location">Location: Ridge High School, 268 S Finley Ave, Basking Ridge, NJ 07920</h3>
+
+            <div id="map"></div>
+            <script>
+                // Initialize and add the map
+                function initMap() {
+                    // The location of Uluru
+                    var uluru = { lat: 40.694054, lng: -74.546970 };
+                    // The map, centered at Uluru
+                    var map = new google.maps.Map(
+                        document.getElementById('map'), { zoom: 14, center: uluru });
+                    // The marker, positioned at Uluru
+                    var marker = new google.maps.Marker({ position: uluru, map: map });
+                }
+
+            </script>
+            <script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVyfYYjHfALs1EEtI0ZG3i968BGlc5LzQ&callback=initMap">
+                </script>
+        </div>
+
+</div>
+</body>
+
+</html>
