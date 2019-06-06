@@ -1,5 +1,6 @@
 #title {
   padding-left: 10px;
+  margin-top: 1em;
 }
 
 body {
@@ -56,10 +57,9 @@ top: 1.45em;
 .event-card-changed {
 width: 95%;
 display: grid;
-grid-template-columns: auto auto auto auto;
-grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+grid-template-columns: repeat(autofill, auto);
+grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
 grid-gap: 0;
-height: 60%;
 }
 
 .event-card-changed > div  {
@@ -94,11 +94,7 @@ border-bottom-right-radius: 25px;
 display: grid;
 grid-template-rows: auto auto auto auto auto;
 grid-template-columns: auto auto auto auto auto;
-grid-row-gap: 20px;
-height: 800px;
-padding-left: 50px;
-padding-top: 50px;
-}
+} 
 
 .header {
 display: grid;
@@ -127,12 +123,11 @@ grid-column: 2;
 #add-event {
 display: grid;
 grid-column-start: 5;
-justify-self: last baseline;
 height: 50px;
 width: 150px;
-margin-top: 14px;
-padding-top: 13px;
-font-size: 15px;
+margin-top: 3em;
+margin-right: 5em;
+font-size: 17px;
 }
 
 .form-button {
@@ -232,7 +227,7 @@ height: 60px;
 font-family: "PT Sans";
 font-size: 50pt;
 color:black ;
-text-align: center;
+justify-content: center;
 }
 
 #event-info{
@@ -294,11 +289,9 @@ p {
 .return-button{
   grid-column: 2;
   grid-row: 2;
-  text-align: center;
   padding: 10px;
-  align-items: center;
-  padding-top: 10em;
-  padding-left: 10em;
+  margin-top: 10em;
+  margin-left: 11em;
 }
 
 .Event{
