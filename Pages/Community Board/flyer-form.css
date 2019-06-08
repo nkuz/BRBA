@@ -27,7 +27,7 @@ button {
     position: relative;
     display: inline-block;
     max-width: 700px;
-    min-width: 700px;
+    min-width: 100px;
     box-sizing: border-box;
     padding: 30px 25px;
     background-color: white;
@@ -319,5 +319,23 @@ button {
   
   .button-large-clear:focus {
     outline: #0D1F22;
+  }
+
+  @media only screen and (max-width: 700px) {
+    form {
+      position: relative;
+      display: inline-block;
+      max-width: 700px;
+      min-width: 100px;
+      box-sizing: border-box;
+      padding: 40px 40px;
+      background-color: white;
+      border-radius: 40px;
+      margin: 10px 0;
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -webkit-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
   }
   
