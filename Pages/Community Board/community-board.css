@@ -223,6 +223,7 @@ h2 {
     }
     #bb-container > img {
         border-radius: 25px;
+        width: 13%;
     }
     .event-content-leftm > h2 {
         margin-top: 30%;
