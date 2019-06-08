@@ -185,6 +185,9 @@ h2 {
     #logo {
         border-radius: 0px;
     }
+    #grid-title > p{
+        color: #0D1F22;
+    }
     #pretty-background-mobile {
         background-color: #ffffff50;
         z-index: -3333;
@@ -206,10 +209,9 @@ h2 {
     #bb-container > div {
         background-color: #99D5C9;
         margin: 20px;
-    }
-    #mydiv {
         border-radius: 25px;
     }
+   
     .flyer-img {
         padding: 25px;
         width: 90%;
@@ -248,16 +250,20 @@ h2 {
     #readmore1 {
         margin-bottom: 10px;
     }
-    #event-content-leftm {
-        border-top-left-radius: 25px;
-
-    }
+    
     #readmore1 {
         width: 90%;
         padding: 10px;
     }
     .sample > div {
         border-radius: 25px;
+    }
+    .event-cardm {
+        border-radius: 25px;
+
+    }
+    .event-content-leftm {
+
     }
   }
   
