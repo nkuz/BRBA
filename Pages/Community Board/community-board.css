@@ -7,7 +7,7 @@ body {
 #title-grid-container{
     margin-top: 100px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: repeat(auto,9);
     grid-gap: 10px;
 }
 
@@ -26,17 +26,19 @@ body {
 }
 
 #add-an-event {
-    grid-column: 7/9;
-    width: 100%;
-
+    grid-column: 5/9;
+}
+.event-content-rightm > button {
+    width: 100px;
+    padding: 5px;
 }
 
 #make-wider {
-    width: 400%;
+    width: 300px;
 }
 
 h1 {
-    font-family: "PT Sans"; 
+    font-family: "Open Sans"; 
     font-size: 55px; 
     font-style: normal; 
     font-variant: normal; 
@@ -46,7 +48,7 @@ h1 {
 
 p {
     color: #0D1F22;
-    font-family: "PT Sans"; 
+    font-family: "Open Sans"; 
     font-style: normal; 
     font-variant: normal; 
     line-height: 26.4px;
@@ -58,13 +60,17 @@ p {
     grid-gap: 20px;
     align-items: center;
     justify-items: center;
+    grid-column-gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
 }
 
 #bb-container > div  {
     background-color: #99D5C9;
     padding: 20px;
     border-radius: 25px;
-    width: 30%;
+
 
 }
 
@@ -83,9 +89,7 @@ img {
     margin-left: 90%;
 }
 
-.sample {
-    overflow: auto;
-}
+
 
 h2 {
     margin-top: -30px;
@@ -95,6 +99,7 @@ h2 {
 #mydiv {
     position: absolute;
     z-index: 9;
+    margin-right: 40;
   }
   
   #mydivheader {
@@ -131,11 +136,52 @@ h2 {
   }
 
 }
-  @media only screen and (max-width: 700px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
     body {
         font-family: 'Open Sans';
         background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
     }
+
     #logo {
         border-radius: 0px;
     }
@@ -153,7 +199,7 @@ h2 {
     #add-an-event {
         margin-left: 15vw;
     }
-    button {
+    #make-wider {
         width: 300px;
         padding: 10px;
     }
@@ -186,11 +232,33 @@ h2 {
         grid-gap: 0;
         border-radius: 25px;
     }
-    #mydiv2 {
-        border-radius: 25px;
-    }
+
     a {
         color: white;
     }
+    .picfly {
+        border-radius: 25px;
+    }
+  
+    .flyer {
+        border-radius: 25px;
+        perspective: 1px;
+    }
+
+    #readmore1 {
+        margin-bottom: 10px;
+    }
+    #event-content-leftm {
+        border-top-left-radius: 25px;
+
+    }
+    #readmore1 {
+        width: 90%;
+        padding: 10px;
+    }
+    .sample > div {
+        border-radius: 25px;
+    }
   }
   
+
