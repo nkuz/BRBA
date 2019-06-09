@@ -1938,3 +1938,37 @@ padding-left: 30px;
   margin-left: 30px;
   margin-right: 30px;
   }
+
+
+  /* home page css */
+.main_page_Text {
+  display: grid;
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.main_page_pic {
+  display: grid;
+  grid-row-start: 1;
+  grid-column: 2;
+}
+
+.contact_info {
+  display: grid;
+  grid-row-start: 2;
+  grid-column: 1;
+}
+
+
+.home_image {
+  width: auto;
+  height: auto;
+}
+
+.upcome {
+  display: grid;
+  grid-row-start: 2;
+  grid-column: 2;
+}
+
+
