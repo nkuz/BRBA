@@ -85,8 +85,9 @@ img {
 
 .pin {
     width: 30px;
-    padding-right: 85%;
+    padding-right: 20%;
     margin-left: 90%;
+    cursor:move;
 }
 
 
@@ -130,6 +131,7 @@ h2 {
   }
   a {
       color: white;
+      text-decoration: none;
   }
   #add-an-event {
       width: 50px;
@@ -179,7 +181,7 @@ h2 {
 @media only screen and (max-width: 700px) {
     body {
         font-family: 'Open Sans';
-        background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
+        background-image: url("http://wwwphotoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
     }
 
     #logo {
@@ -200,7 +202,7 @@ h2 {
         margin-left: 20px;
     }
     #add-an-event {
-        margin-left: 15vw;
+        margin-left: 500px;
     }
     #make-wider {
         width: 300px;
@@ -250,11 +252,8 @@ h2 {
 
     #readmore1 {
         margin-bottom: 10px;
-    }
-    
-    #readmore1 {
         width: 90%;
-        padding: 10px;
+        padding: 1px;
     }
     .sample > div {
         border-radius: 25px;
