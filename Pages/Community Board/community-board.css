@@ -160,6 +160,30 @@ h2 {
 #title {
     margin-left: 10px;
 }
+h2 {
+    font-family: "Open Sans";
+    font-size: 33px;
+    color: #57585B;
+}
+p {
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: #57585B;
+}
+h4 {
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: #57585B;
+}
+#readmore1 {
+    height: 40px;
+}
+h6 {
+   height: 10px;
+   line-height: 0px;
+   position: relative;
+   top: -15px;
+}
 }
 
 
