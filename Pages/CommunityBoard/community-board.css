@@ -1,7 +1,7 @@
 @media only screen and (min-width: 700px) {
 body {
     font-family: 'Open Sans';
-    background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
+    background-image: url("/Pages/CommunityBoard/resources/cork.jpg");
 }
 
 #title-grid-container{
@@ -228,7 +228,7 @@ h6 {
 @media only screen and (max-width: 700px) {
     body {
         font-family: 'Open Sans';
-        background-image: url("http://wwwphotoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
+        background-image: url("/Pages/CommunityBoard/resources/cork.jpg");
     }
 
     #logo {
@@ -259,6 +259,7 @@ h6 {
         background-color: #99D5C9;
         margin: 20px;
         border-radius: 25px;
+        margin-top: 90px;
     }
    
     .flyer-img {
@@ -309,7 +310,44 @@ h6 {
         border-radius: 25px;
 
     }
-    
+    h2 {
+        font-family: "Open Sans";
+        font-size: 33px;
+        color: #57585B;
+    }
+    p {
+        font-family: "Open Sans";
+        font-size: 20px;
+        color: #57585B;
+    }
+    h4 {
+        font-family: "Open Sans";
+        font-size: 20px;
+        color: #57585B;
+    }
+    #readmore1 {
+        height: 40px;
+    }
+    h6 {
+       height: 10px;
+       line-height: 0px;
+       position: relative;
+       top: -10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .header {
+        position: relative;
+        top: 90px;
+        padding: 20px;
+    }
+    h1 {
+        line-height: 50px;
+    }
+    * {
+        font-family: "Open Sans";
+    }
   }
   
 
