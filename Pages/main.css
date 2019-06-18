@@ -1938,3 +1938,69 @@ padding-left: 30px;
   margin-left: 30px;
   margin-right: 30px;
   }
+
+
+  /* home page css */
+.main_page_Text {
+  display: grid;
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.main_page_pic {
+  display: grid;
+  grid-row-start: 1;
+  grid-column: 2;
+}
+
+.contact_info {
+  display: grid;
+  grid-row-start: 2;
+  grid-column: 1;
+}
+
+
+.home_image {
+  width: auto;
+  height: auto;
+}
+
+.upcome {
+  display: grid;
+  grid-row-start: 2;
+  grid-column: 2;
+}
+
+.upcoming1-content-left {
+    height: 3em;
+    background: #99D5C9;
+    width: 10em;
+    padding: 25px;
+    padding-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.upcoming1-content-right {
+    background: #99D5C9;
+    width: 6em;
+    padding: 25px;
+    padding-top: 0px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    margin-left: -2px;
+    height: 3em;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.Contact_Information {
+  display: grid;
+  grid-row-start: 3;
+  grid-column: 1;
+}
+
