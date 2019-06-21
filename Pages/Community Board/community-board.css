@@ -1,0 +1,271 @@
+@media only screen and (min-width: 700px) {
+body {
+    font-family: 'Open Sans';
+    background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
+}
+
+#title-grid-container{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto,9);
+    grid-gap: 10px;
+}
+
+#pretty-background-mobile {
+    background-color: #ffffff50;
+    z-index: -3333;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+#grid-title {
+    grid-column: 1/5;
+    padding: 10px;
+    margin-top: -22px;
+}
+
+#add-an-event {
+    grid-column: 5/9;
+}
+.event-content-rightm > button {
+    width: 100px;
+    padding: 5px;
+}
+
+#make-wider {
+    width: 300px;
+}
+
+h1 {
+    font-family: "Open Sans"; 
+    font-size: 55px; 
+    font-style: normal; 
+    font-variant: normal; 
+    line-height: 26.4px; 
+    color: #0D1F22;
+}
+
+p {
+    color: #0D1F22;
+    font-family: "Open Sans"; 
+    font-style: normal; 
+    font-variant: normal; 
+    line-height: 26.4px;
+}
+
+#bb-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-items: center;
+    grid-column-gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+#bb-container > div  {
+    background-color: #99D5C9;
+    padding: 20px;
+    border-radius: 25px;
+
+
+}
+
+.flyer {
+    border-radius: 25px;
+}
+
+img {
+    width: 100%;
+}
+
+
+.pin {
+    width: 30px;
+    padding-right: 85%;
+    margin-left: 90%;
+}
+
+
+
+h2 {
+    margin-top: -30px;
+}
+
+
+#mydiv {
+    position: absolute;
+    z-index: 9;
+    margin-right: 40;
+  }
+  
+  #mydivheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+
+  }
+
+  #mydiv2 {
+      width: 25%;
+    position: absolute;
+    z-index: 9;
+    left: 500px;
+
+  }
+  
+  #mydivheader2 {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    width: 25%;
+    left: 500px;
+
+  }
+  #logo {
+      border-radius: 0px;
+  }
+  a {
+      color: white;
+  }
+  #add-an-event {
+      width: 50px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-family: 'Open Sans';
+        background-image: url("http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg");
+    }
+
+    #logo {
+        border-radius: 0px;
+    }
+    #grid-title > p{
+        color: #0D1F22;
+    }
+    #pretty-background-mobile {
+        background-color: #ffffff50;
+        z-index: -3333;
+        height: 100vh;
+        width: 100vw;
+        position: fixed;
+    }
+    #title-grid-container {
+        margin-top: 130px;
+        margin-left: 20px;
+    }
+    #add-an-event {
+        margin-left: 15vw;
+    }
+    #make-wider {
+        width: 300px;
+        padding: 10px;
+    }
+    #bb-container > div {
+        background-color: #99D5C9;
+        margin: 20px;
+        border-radius: 25px;
+    }
+   
+    .flyer-img {
+        padding: 25px;
+        width: 90%;
+        border-radius: 25px;
+
+    }
+    .pin {
+        display: none;
+    }
+    #bb-container > img {
+        border-radius: 25px;
+        width: 13%;
+    }
+    .event-content-leftm > h2 {
+        margin-top: 30%;
+    }
+    .event-cardm {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 0;
+        border-radius: 25px;
+    }
+
+    a {
+        color: white;
+    }
+    .picfly {
+        border-radius: 25px;
+    }
+  
+    .flyer {
+        border-radius: 25px;
+        perspective: 1px;
+    }
+
+    #readmore1 {
+        margin-bottom: 10px;
+    }
+    
+    #readmore1 {
+        width: 90%;
+        padding: 10px;
+    }
+    .sample > div {
+        border-radius: 25px;
+    }
+    .event-cardm {
+        border-radius: 25px;
+
+    }
+    .event-content-leftm {
+
+    }
+  }
+  
+

@@ -32,7 +32,7 @@ body {
 }
 .memberProfile {
 	display: grid;
-	grid-template-columns: 20% 80%;
+	grid-template-columns: 20% 75% 5%;
 	background-color: #ECFAF7;
 	width: 90%;
 	margin-left: 5%;
@@ -42,7 +42,7 @@ body {
 }
 .memberTitle {
 	grid-column: 2/3
-	padding-right: 10%;
+	margin-right: 10%;
 }
 .memberTitle h2:hover {
 	cursor: pointer;
@@ -60,4 +60,7 @@ body {
 .memberTags {
 	grid-column: 2/3;
 	transform: translateY(-100%);
+}
+.memberPlaceholder {
+	grid-column: 3/4;
 }

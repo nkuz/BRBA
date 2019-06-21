@@ -122,12 +122,12 @@ grid-column: 2;
 
 #add-event {
 display: grid;
-grid-column-start: 2;
+grid-column-start: 5;
+height: 50px;
+width: 150px;
 margin-top: 3em;
 margin-right: 5em;
 font-size: 17px;
-height: auto;
-width: auto;
 }
 
 .form-button {

@@ -1,0 +1,341 @@
+body {
+    font-family: "Open Sans";
+    background-color: #69B578;
+}
+button {
+    margin: 10px;
+}
+
+.transition, form .question label, form .question input[type="text"] {
+    -moz-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+    -o-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+    -webkit-transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+    transition: all 0.25s cubic-bezier(0.53, 0.01, 0.35, 1.5);
+  }
+  
+  * {
+    font-family: PT Sans, sans-serif;
+    font-weight: light;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  html {
+    background-color: #69B578;
+  }
+  
+  form {
+    position: relative;
+    display: inline-block;
+    max-width: 700px;
+    min-width: 700px;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    background-color: white;
+    border-radius: 40px;
+    margin: 40px 0;
+    left: 50%;
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  form h1 {
+    color: #006B34;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    margin-left: 15px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+  }
+  
+  form .question {
+    position: relative;
+    padding: 10px 0;
+  }
+  form .question:first-of-type {
+    padding-top: 0;
+  }
+  form .question:last-of-type {
+    padding-bottom: 0;
+  }
+  form .question label {
+    transform-origin: left center;
+    color: #69B578;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    font-size: 17px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  form .question input[type="text"] {
+    appearance: none;
+    background-color: none;
+    border: 1px solid #B7D3F2;
+    line-height: 0;
+    font-size: 17px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border-radius: 60px;
+    color: #B7D3F2;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+  }
+  form .question input[type="text"]:focus {
+    outline: none;
+    background: #B7D3F2;
+    color: white;
+    margin-top: 30px;
+  }
+  form .question input[type="text"]:valid {
+    margin-top: 30px;
+  }
+  form .question input[type="text"]:focus ~ label {
+    -moz-transform: translate(0, -35px);
+    -ms-transform: translate(0, -35px);
+    -webkit-transform: translate(0, -35px);
+    transform: translate(0, -35px);
+  }
+  form .question input[type="text"]:valid ~ label {
+    text-transform: uppercase;
+    font-style: italic;
+    -moz-transform: translate(5px, -35px) scale(0.6);
+    -ms-transform: translate(5px, -35px) scale(0.6);
+    -webkit-transform: translate(5px, -35px) scale(0.6);
+    transform: translate(5px, -35px) scale(0.6);
+  }
+  /*
+  Button CSS Styles w/ defined usage
+  BRBA Project
+*/
+
+/*
+  Small Green Button Style
+  Text is size of p element default
+  Use for:
+    - Add an Event
+    - RSVP
+    - Upload Logo
+    - Upload Flyer
+    - Search
+    - Apply
+*/
+.button-small-green {
+    background-color: #006B34;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-small-green:hover {
+    background-color: #69B578;
+  }
+  
+  .button-small-green:active {
+    background-color: #99D5C9;
+  }
+  
+  .button-small-green:focus {
+    outline: #0D1F22;
+  }
+  
+  /*
+    Medium Green Button Style
+    Text is size of h3 element default
+    Use for:
+      - Return to Event Page
+  */
+  .button-med-green {
+    background-color: #006B34;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 18.72px;
+    cursor: pointer;
+  
+  }
+  
+  .button-med-green:hover {
+    background-color: #69B578;
+  }
+  
+  .button-med-green:active {
+    background-color: #99D5C9;
+  }
+  
+  .button-med-green:focus {
+    outline: #0D1F22;
+  }
+  
+  /*
+    Large Green Button Style
+    Text is same size as h2 element default
+    Use for:
+      - Add an Event
+      - RSVP
+  */
+  
+  .button-large-green {
+    background-color: #006B34;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .button-large-green:hover {
+    background-color: #69B578;
+  }
+  
+  .button-large-green:active {
+    background-color: #99D5C9;
+  }
+  
+  .button-large-green:focus {
+    outline: #0D1F22;
+  }
+  
+  /*
+    Small Clear Button Style
+    Use for:
+      - TBD
+  */
+  .button-small-clear {
+    background-color: #ffffff00;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #0D1F22;
+    padding: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  
+  }
+  
+  .button-small-clear:hover {
+    background-color: #99D5C950;
+  }
+  
+  .button-small-clear:active {
+    background-color: #99D5C9;
+  }
+  
+  .button-small-clear:focus {
+    outline: #0D1F22;
+  }
+  
+  /*
+    Medium Clear Button Style
+    Use for:
+      - Add an event on bulletin board
+  */
+  
+  .button-med-clear {
+    background-color: #ffffff00;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #0D1F22;;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 18.72px;
+    font-weight: bold;
+    cursor: pointer;
+  
+  }
+  
+  .button-med-clear:hover {
+    background-color: #99D5C950;
+  }
+  
+  .button-med-clear:active {
+    background-color: #99D5C9;
+  }
+  
+  .button-med-clear:focus {
+    outline: #0D1F22;
+  }
+  
+  /*
+    Large Clear Button Style
+    Use for:
+      - TBD
+  */
+  
+  .button-large-clear {
+    background-color: #ffffff00;
+    border-radius: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #0D1F22;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: none;
+    transition: background-color 0.2s;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .button-large-clear:hover {
+    background-color: #99D5C950;
+  }
+  
+  .button-large-clear:active {
+    background-color: #99D5C9;
+  }
+  
+  .button-large-clear:focus {
+    outline: #0D1F22;
+  }
+
+  @media only screen and (max-width: 700px) {
+    form {
+      position: relative;
+      display: inline-block;
+      max-width: 700px;
+      min-width: 100px;
+      box-sizing: border-box;
+      padding: 40px 40px;
+      background-color: white;
+      border-radius: 40px;
+      margin: 10px 0;
+      -moz-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+      -webkit-transform: translate(-50%, 0);
+      transform: translate(-50%, 0);
+    }
+  }
+  
