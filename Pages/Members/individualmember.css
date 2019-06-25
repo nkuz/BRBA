@@ -1,0 +1,52 @@
+body {
+	background-color: white;
+}
+#individualContainer {
+	padding-top: 130px;
+	display: grid;
+	grid-template-columns: 40% 40%;
+	grid-column-gap: 20%;
+}
+#individualLeft {
+	grid-column: 1/2;
+	text-align: center;
+}
+#individualRight {
+	grid-column: 2/3;
+	text-align: center;
+	margin-right: 10%;
+}
+.individualTags, .individualImg {
+	margin-bottom: 15%;
+}
+.largeCirc {
+	width: 400px!important;
+	height: 400px!important;
+}
+.individualContact {
+	background-color: #99D5C9;
+	padding: 10px;
+	text-align: center;
+}
+.individualContactTop, .individualContactBot {
+	color: white;
+}
+.individualTitle {
+	color: #8B8D8B;
+	font-size: 40px;
+	border-bottom: 3px solid #ADDDD4;
+	padding-bottom: 30px;
+}
+.individualInfo {
+	background-color: #99D5C9;
+	padding: 15px;
+	border-radius: 25px;
+}
+.individualInfo h3, .individualInfo h3 a {
+	color: white;
+	font-weight: 500;
+}
+.individualMap {
+	margin-top: 10%;
+	width: 100%;
+}
