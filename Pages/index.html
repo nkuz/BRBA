@@ -1,79 +1,124 @@
 <!DOCTYPE html>
 <html>
-  <head>
-        <link rel="stylesheet" type="text/css" href="theme.css" >
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<head>
+    <title>BRBA - Home</title>
+    <!-- Links stylesheets from the stylesheet, fonts, animation libraries -->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="../Tags/tag.css">
+    <meta charset="utf-8">
+    <div id="TabBar">
+        <ul>
+            <li><img id="logo" src="https://www.ridgebusiness.org/Assets/website%20logo.png"></li>
+            <li><img id="login" src="https://i.pinimg.com/originals/dc/f6/b7/dcf6b71f6d4fbb0a0f541a90e67f852c.png"></li>
+            <li class="wordItem">
+                <a href="#home" class="active">HOME</a>
+            </li>
+            <li class="wordItem" onclick="window.location.href='Members/members.html'">
+                <a href="#members">MEMBERS</a>
+            </li>
+            <li class="wordItem" onclick="window.location.href='CommunityBoard/community-board.html'">
+                <a href="#bulletin">BULLETIN</a>
+            </li>
+            <li class="wordItem" onclick="window.location.href='EventsPage/General-events.html'">
+                <a href="#events">EVENTS</a>
+            </li>
+            <li class="wordItem">
+                <a href="#contact">CONTACT</a>
+            </li>
+            <li class="wordItem">
+                <a href="#Login">LOGIN</a>
+            </li>
+        </ul>
+    </div>
+</head>
+<body>
+<div class="grid-container">
+    <div class="main_page_Text">
+        <h4> Basking Ridge Business Alliance </h4>
 
-        <meta charset="utf-8">
-    </head>
-    <p class="red"> hiiiiiii</p>
-    <body>
-        <div id="TabBar">
-            <ul>
-              <li><img id="logo" src="https://www.ridgebusiness.org/Assets/website%20logo.png"></li>
-              <li><img id="login" src="https://i.pinimg.com/originals/dc/f6/b7/dcf6b71f6d4fbb0a0f541a90e67f852c.png"></li>
-                <li class="wordItem">
-                    <a href="#home">HOME</a>
-                </li>
-                <li class="wordItem">
-                    <a href="#members">MEMBERS</a>
-                </li>
-                <li class="wordItem">
-                    <a href="#bulletin">BULLETIN</a>
-                </li>
-              <li class="wordItem">
-                    <a href="#events">EVENTS</a>
-                </li>
-              <li class="wordItem">
-                    <a href="#contact">CONTACT</a>
-                </li>
-              <li class="wordItem">
-                    <a href="#Login">LOGIN</a>
-                </li>
-            </ul>
+        <p> The Basking Ridge Business Alliance is a non-profit organization of local business people and residents.
+
+            Our vision is to successfully promote business prosperity and a healthy community in Basking Ridge. Our mission
+            is to focus on helping businesses and the community work together, nurturing positive growth and interaction, and to
+            preserve those unique qualities that make Basking Ridge a special place in which to live and work.
+
+        </p>
+
+    </div>
+
+    <div class="main_page_pic">
+      
+            <img class="home_image" src="http://www.ridgebusiness.org/Assets/membership/coldwell_banker_bldg.jpg">
+        
+
+    </div>
+
+    <div class="contact_info">
+    	<div class="event-card-changed">
+       
+            <div class="events-content-left">
+                <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_UradlLaztQh9xtwCw5V8uIjJ89x4VYXVqcYw0ExDPdn6QX_H">
+            </div>
+
+
+            <div class="events-content-centre">
+                <img class="logo" src="https://image.flaticon.com/icons/png/512/33/33702.png">
+            </div>
+
+
+            <div class="events-content-right">
+                <img class="logo" src="https://image.flaticon.com/icons/png/512/23/23681.png">
+            </div>
         </div>
-        <table width = "100%"> 
-            <tr valign = "top">
-                <td width = "70%"> 
-                    <div class="main">
-                        <h2>Basking Ridge Business Alliance</h2> 
-                        <p>The Basking Ridge Business Alliance is a non-profit organization</br> of local business people and residents.</p>
-                        <p>Our vision is to successfully promote business prosperity and a</br>
-                        healthy community in Basking Ridge. Our mission is to focus on</br>
-                        helping businesses and the community work together, nurturing</br>
-                        positive growth and interaction, and to preserve those unique</br>
-                        qualities that make Basking Ridge a very special place in which to</br>
-                        live and work.</p> 
+    </div>
+        
+
+        
+    <div class="upcome">
+    		<h3> Upcoming Events </h3>
+
+
+
+
+
+
+    			<div class="upcoming-events-card">
+
+                <div class="upcoming1-content-left">
+                   <p> RidgeHacks Hackathon</p>
+                </div>
+
+                <div class="upcoming1-content-right">
+                    <p id="desc1"> April 27th 8:00 AM</p>
+                </div>
+            	</div>
+
+            	
+       
+
+           
+                <div class="upcoming-events-card">
+                    <div class="upcoming1-content-left">
+                        <p> Networking Night</p>
                     </div>
-                </td>
-                <td width = "30%"> 
-                    <div class="image">
-                        <img src="building2.jpeg" alt="" border=1 height=250 width=400></img>
+                    <div class="upcoming1-content-right">
+                        <p id="desc1"> April 30th 5:30 PM </p>
                     </div>
-                </td>  
-            </tr>
-	    <tr align = "top"> 
-		<td width = "60%">
-		    <div class="round3">
-			<i class="fab fa-instagram fa_custom fa-3x"></i>
-			<i class="fab fa-twitter fa_custom fa-3x"></i>
-			<i class="fab fa-facebook-f fa_custom fa-3x"></i>
-		    </div>
-		</td>
-                <td width = "40%">
-		    <table>
-			<tr valign = "top">
-		    	    <h2 style="margin-left: 120px;color:#26734d">Upcoming Events</h2>
-			</tr>
-			<tr>
-		    	    <div class="round4"><h3>Ridge Hacks Hackathon</h3></div>
-			</tr>
-			<tr>
-		    	    <div class="round4"><h3>Networking Night</h3></div>
-			</tr>
-		   </table>
-		</td>
-	    </tr>
-        </table>
-    </body>
+                </div>
+    </div>
+    <div class ="Contact_Information">
+    	<h5> 5 Lyons Mall #325, Basking Ridge NJ 07920
+			info@ridgebusiness.org</h5>
+
+
+
+
+
+
+    </div>
+
+</div>
+</body>
 </html>

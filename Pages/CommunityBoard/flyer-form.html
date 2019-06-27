@@ -88,13 +88,16 @@
 
 <script>
 function function1() {
-    $("#init-buttons").fadeOut();
-    $("#upload-words").fadeIn();
+    $("#init-buttons").fadeOut(function() {
+        $("#upload-words").fadeIn();
+    });
+
   }
 
   function function2() {
-    $("#init-buttons").fadeOut();
-    $("#upload-flyer").fadeIn();
+    $("#init-buttons").fadeOut(function() {
+        $("#upload-flyer").fadeIn();
+    });
   }
 
 </script>
