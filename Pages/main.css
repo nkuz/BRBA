@@ -878,10 +878,16 @@ body, html {
     right: 1.5em;
 }
 
-#TabBar a:hover{
+#TabBar li:hover a{
   color: #006B34;
   cursor: pointer;
   transition: 0.5s;
+  border-bottom-color: #006B34;
+}
+
+.active {
+  border-bottom: 2px solid white;
+  padding-bottom: 3px;
 }
 
 li {
