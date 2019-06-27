@@ -75,26 +75,29 @@
             <input type="text" required />
             <label>Website</label>
         </div>
-            <center><button onclick="window.location.href='community-board.html'" class="button-med-green">Sumbit</button></center></div>
+            <center><button onclick="window.location.href='community-board.html'" class="button-med-green">Submit</button></center></div>
     </form>
 
 
 <form id="upload-flyer">
 <div>
     <center><button class="button-med-clear">Upload a Flyer</button></center>
-    <a href="community-board.html"><center><button  class="button-med-green">Sumbit</button></center></a>
+    <a href="community-board.html"><center><button  class="button-med-green">Submit</button></center></a>
     </div>
 </form>
 
 <script>
 function function1() {
-    $("#init-buttons").fadeOut();
-    $("#upload-words").fadeIn();
+    $("#init-buttons").fadeOut(function() {
+        $("#upload-words").fadeIn();
+    });
+
   }
 
   function function2() {
-    $("#init-buttons").fadeOut();
-    $("#upload-flyer").fadeIn();
+    $("#init-buttons").fadeOut(function() {
+        $("#upload-flyer").fadeIn();
+    });
   }
 
 </script>
