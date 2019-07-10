@@ -28,7 +28,6 @@ body {
 }
 .memberImg {
 	grid-column: 1/2;
-	margin-left: 10%;
 }
 .memberProfile {
 	display: grid;
@@ -41,7 +40,7 @@ body {
 	margin-bottom: 25px;
 }
 .memberTitle {
-	grid-column: 2/3
+	grid-column: 2/3;
 	margin-right: 10%;
 }
 .memberTitle h2:hover {

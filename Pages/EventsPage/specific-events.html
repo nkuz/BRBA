@@ -9,26 +9,23 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
-
-
+</head>
+<body>
     <div id="TabBar">
         <ul>
             <li><img id="logo" src="https://www.ridgebusiness.org/Assets/website%20logo.png"></li>
             <li><img id="login" src="https://i.pinimg.com/originals/dc/f6/b7/dcf6b71f6d4fbb0a0f541a90e67f852c.png"></li>
-            <li class="wordItem" onclick="window.location.href='../index.html'">
+            <li class="wordItem">
                 <a href="#home">HOME</a>
             </li>
-            <li class="wordItem" onclick="window.location.href='../Members/members.html'">
+            <li class="wordItem">
                 <a href="#members">MEMBERS</a>
             </li>
-            <li class="wordItem" onclick="window.location.href='../CommunityBoard/community-board.html'">
+            <li class="wordItem">
                 <a href="#bulletin">BULLETIN</a>
             </li>
-            <li class="wordItem" onclick="window.location.href='General-events.html'">
-                <a href="#events" class="active">EVENTS</a>
+            <li class="wordItem">
+                <a href="#events">EVENTS</a>
             </li>
             <li class="wordItem">
                 <a href="#contact">CONTACT</a>
@@ -38,9 +35,6 @@
             </li>
         </ul>
     </div>
-</head>
-
-<body>
 
     <div class="content">
 
@@ -48,8 +42,7 @@
             <h1 id="specific-event-name">Cinco de Mayo</h1>
         </div>
         <div class="return-button">
-            <a href="General-events.html">
-                <button id="Return-to-Events-Page" class="button-med-green">Return to Events Page</button></a>
+                <button id="Return-to-Events-Page" onclick="window.location.href = 'General-events.html'" class="button-med-green">Return to Events Page</button></a>
         </div>
         <div class="Event">
             <div id="event-information">
@@ -88,8 +81,7 @@
             <p id="contact-info-specifics"> <i class="fas fa-envelope-square"> </i> peterparker@gmail.com </p>
             <p id="contact-info-specifics"> <i class="fas fa-globe"> </i> www.friendlyspider.org</p>
 
-            <a href="RSVP-form.html">
-                <button id="RSVP" class="button-med-green">RSVP</button></a>
+                <button id="RSVP" onclick="window.location.href = 'RSVP-form.html'" class="button-med-green">RSVP</button></a>
 
 
 
