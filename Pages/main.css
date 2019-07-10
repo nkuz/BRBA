@@ -133,7 +133,7 @@ div.round5 {
 .button-small-green {
     background-color: #006B34;
     border-radius: 25px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans";
     color: white;
     padding: 7px;
     padding-left: 10px;
@@ -165,7 +165,7 @@ div.round5 {
 .button-med-green {
     background-color: #006B34;
     border-radius: 25px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans";
     color: white;
     padding: 10px;
     padding-left: 15px;
@@ -200,7 +200,7 @@ div.round5 {
 .button-large-green {
     background-color: #006B34;
     border-radius: 25px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans";
     color: white;
     padding: 12px;
     padding-left: 20px;
@@ -231,7 +231,7 @@ div.round5 {
 .button-small-clear {
     background-color: #ffffff00;
     border-radius: 25px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans";
     color: #0D1F22;
     padding: 7px;
     padding-left: 10px;
@@ -265,7 +265,7 @@ div.round5 {
 .button-med-clear {
     background-color: #ffffff00;
     border-radius: 25px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans";
     color: #0D1F22;;
     padding: 10px;
     padding-left: 15px;
@@ -298,7 +298,7 @@ div.round5 {
 .button-large-clear {
     background-color: #ffffff00;
     border-radius: 25px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans";
     color: #0D1F22;
     padding: 12px;
     padding-left: 20px;
@@ -659,7 +659,7 @@ img {
 }
 
 * {
-  font-family: PT Sans, sans-serif;
+  font-family: "PT Sans";
   font-weight: light;
   -webkit-font-smoothing: antialiased;
 }
@@ -846,8 +846,8 @@ body, html {
 .largeCirc { 
     border-radius: 50%;
     padding: 20px;
-    width: 260px;
-    height: 260px;
+    width: 350px;
+    height: 350px;
 }
 
 
@@ -961,7 +961,7 @@ body
 input, button
 {
     color: #fff;
-    font-family: PT Sans;
+    font-family: "PT Sans";
     padding: 0;
     margin: 0;
     border: 0;
@@ -1103,7 +1103,7 @@ button span:before, button span:after
   padding:8px 10px;
   color:#fff;
   font-size:14px;
-  font-family: Helvetica;
+  font-family: "PT Sans";
   text-align:center;
   text-decoration:none;
   background-color: #fff;
@@ -1260,7 +1260,7 @@ padding-left: 30px;
 
   h2{
   color: white;
-  font-family: "PT Sans Narrow";
+  font-family: "PT Sans";
   font-size: 30px;
   font-style: normal;
   font-variant: normal;
@@ -1271,7 +1271,7 @@ padding-left: 30px;
 
   h3{
   color:#99D5C9;
-  font-family: "PT Serif";
+  font-family: "PT Sans";
   font-size: 20px;
   font-style: normal;
   font-variant: normal;
@@ -1281,7 +1281,7 @@ padding-left: 30px;
 
    h4{
   color: #006B34;
-  font-family: "PT Sans Narrow";
+  font-family: "PT Sans";
   font-size: 30px;
   font-style: normal;
   font-variant: normal;
@@ -1437,7 +1437,7 @@ main .form-buttons button {
   .button-med-green {
     background-color: #006B34;
     border-radius: 25px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "PT Sans";
     color: white;
     padding: 10px;
     padding-left: 15px;
@@ -1462,7 +1462,7 @@ main .form-buttons button {
   }
 
   body {
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans";
 }
 
 #TabBar {

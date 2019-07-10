@@ -9,7 +9,6 @@ body {
     display: grid;
     grid-template-columns: repeat(auto,9);
     grid-gap: 10px;
-    margin-left: 30px;
 }
 
 #pretty-background-mobile {
@@ -26,9 +25,11 @@ body {
     margin-top: -22px;
 }
 
-#add-an-event {
+#add-event {
     grid-column-start: 2;
-    top: -60px;
+    top: -32px;
+    font-size: 20px;
+    margin-right: 10%;
 }
 .event-content-rightm > button {
     width: 100px;

@@ -5,11 +5,12 @@ body {
 	padding-top: 130px;
 	display: grid;
 	grid-template-columns: 40% 40%;
-	grid-column-gap: 20%;
+	grid-column-gap: 15%;
 }
 #individualLeft {
 	grid-column: 1/2;
 	text-align: center;
+	margin-left: 10%;
 }
 #individualRight {
 	grid-column: 2/3;
@@ -18,15 +19,13 @@ body {
 }
 .individualTags, .individualImg {
 	margin-bottom: 15%;
-}
-.largeCirc {
-	width: 400px!important;
-	height: 400px!important;
+	
 }
 .individualContact {
 	background-color: #99D5C9;
 	padding: 10px;
 	text-align: center;
+	border-radius: 25px;
 }
 .individualContactTop, .individualContactBot {
 	color: white;
@@ -49,4 +48,12 @@ body {
 .individualMap {
 	margin-top: 10%;
 	width: 100%;
+}
+
+#newMap {
+	border-radius: 25px;
+}
+
+.individualImg {
+	margin: 5%;
 }

@@ -3,7 +3,56 @@
   margin-top: 1em;
 }
 
+body {
+font-family: "PT Sans";
+}
 
+#TabBar {
+background-color: #78CB95;
+font-size: 1.2em;
+position: fixed;
+right: 0;
+top: 0;
+width: 100vw;
+height: 80px;
+text-align: right;
+color: white;
+z-index: 999;
+}
+
+#TabBar a {
+color: white;
+text-decoration: none;
+}
+
+li {
+display: inline;
+padding: 1em;
+position: relative;
+top: .5em;
+right: 1.5em;
+}
+
+li:hover {
+color: #006B34;
+cursor: pointer;
+}
+
+#logo {
+height: 3em;
+width: 5em;
+position: fixed;
+left: 1em;
+top: .3em;
+}
+
+#login {
+height: 1.19em;
+width: 1.1em;
+position: fixed;
+right: 1.3em;
+top: 1.45em;
+}
 /* The Event Card is changed to use the grid instead of flex/padding. Remove this after it is changed on the main stylesheet */
 .event-card-changed {
 width: 95%;
@@ -73,12 +122,12 @@ grid-column: 2;
 
 #add-event {
 display: grid;
-grid-column-start: 2;
+grid-column-start: 5;
+height: 50px;
+width: 150px;
 margin-top: 3em;
 margin-right: 5em;
 font-size: 17px;
-height: auto;
-width: auto;
 }
 
 .form-button {
@@ -188,7 +237,7 @@ color: #57585b
 }
 
 
-/*h1{
+h1{
   font-family: "PT Sans";
   font-size: 40pt;
   color: #333333;
@@ -215,7 +264,7 @@ p {
   font-family: "PT Sans"; 
   font-size: 15pt; 
   
-  }*/
+  }
 
 .content{
   display: grid;
@@ -242,7 +291,7 @@ p {
   grid-row: 2;
   padding: 10px;
   margin-top: 10em;
-  margin-left: 11em;
+  margin-left: 12em;
 }
 
 .Event{
